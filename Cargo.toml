@@ -1,0 +1,12 @@
+[package]
+name = "sdl2-rust-test"
+version = "0.1.0"
+authors = ["Samuel Wallace Stegall <stegall@tamu.edu>"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.sdl2]
+    version = "0.33"
+    default-features = true
